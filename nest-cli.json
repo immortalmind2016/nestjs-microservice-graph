@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "request": {
+      "type": "library",
+      "root": "libs/request",
+      "entryFile": "index",
+      "sourceRoot": "libs/request/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/request/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
