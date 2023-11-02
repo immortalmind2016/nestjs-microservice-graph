@@ -11,7 +11,6 @@ export class UserResolver{
 
   @ResolveField(()=>[Order])
   async orders(@Parent() order:Order){
-    console.log("🚀 ~ file: user.resolver.ts:14 ~ UserResolver ~ orders ~ order:", {order})
     return this.appService.list({where:{userId:order.userId}})
   }
 }

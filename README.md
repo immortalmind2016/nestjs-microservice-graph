@@ -45,6 +45,9 @@ We are using kafka in this project to communicate between services, the flow is 
 - The product service will consume the event and update the product price and quantity.
 - The order service will consume the event and update the order status,total price.
 
+![Alt text](https://imageupload.io/ib/5PoSCIPFmZxBpff_1698916931.jpg 'flow')
+check it on draw.io: https://drive.google.com/file/d/1uiz4vlbzhkormFkyRXAVqjTPhANQa7sm/view?usp=sharing
+
 ## Order Snapshot
 
 - The order will be saved in the database as a snapshot, so we can query the order details without the need to join the order and order items tables,
